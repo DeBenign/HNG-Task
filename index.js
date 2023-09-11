@@ -27,5 +27,5 @@ app.get("/api/fetchName/:id", fetchName.fetchName);
 app.put("/api/updateName/:id", updateName.updateName);
 app.delete("/api/deleteName/:id", deleteName.deleteName);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
