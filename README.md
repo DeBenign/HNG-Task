@@ -2,23 +2,23 @@ GETTING STARTED:
 This repository contains a basic implementation of CRUD operations for managing a resource with a "name" attribute. The primary identifier for each resource is the "id" field.
 To use this CRUD application, follow the instructions below:
 
-Prerequisites
+Prerequisites  
 Before getting started, make sure you have the following prerequisites:
 
 Node.js and npm installed on your machine.
 
-INSTALLATION
+INSTALLATION   
 •	Clone this repository to your local machine.
 Git clone <repository-url>
 
-•	Navigate to the project directory.
+•	Navigate to the project directory.  
 cd <project-directory>
 
-•	Install the dependencies.
-npm init -y
+•	Install the dependencies.    
+npm init -y    
 npm install
 
-•	Start the application.
+•	Start the application.    
 npm start
 
 
@@ -66,13 +66,15 @@ This API will collect new name and add it to the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/eae117e6-f122-40f4-bf91-5e7200ae7184)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/b2792b04-54a9-4f1d-b5a7-47bfd0be159f)
+
 
 
 
 EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/5e27a449-8bf4-47b1-b8d5-217cea97a816)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/29d4055b-cc5c-40e5-8a45-115b21facde0)
+
 
 
 On successful creation of the name, it should return status code 201
@@ -84,12 +86,14 @@ This API will return all the names present in the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/0fb0204c-35b9-4d24-a080-3260c9a794d6)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1928fa7f-4953-41c0-9668-74da00c27054)
+
 
 
 EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/c20a27b6-ec1a-431b-97d5-92f58250c9b6)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/8b8de58c-11fd-40eb-87aa-9a46b7eb4bed)
+
 
 On successful creation of the name, it should return status code 201.
 If there are no names, it should return [].
@@ -102,11 +106,13 @@ This API will return the name specify by the ID in the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/91466d8f-5265-4c7d-a4d1-2fec7ede05b7)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1aff5351-bd29-4f5e-b0cc-c4bb789e492b)
+
 
 EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/9140cb3e-5421-4d54-8367-aca3c734121a)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/da912ede-3ec9-4ca9-86d1-f666ef5bb43e)
+
 
 On successful creation of the name, it should return status code 201.
 If there is no such name, it should return "NO SUCH NAME"
@@ -122,11 +128,13 @@ This API will update the name specify by the ID in the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1081d2b0-84a0-4634-830a-3b0f2a1bfcb1)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/350d3ec4-4b06-46ff-a345-ce1d42d58814)
+
 
 EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/2ce20d0a-4899-449f-b9b7-ca8647d405a2)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/ca281d8c-996b-4496-a18e-6e3fda32c476)
+
 
 
 On successful creation of the name, it should return status code 201.
@@ -143,12 +151,14 @@ This API will delete the name specify by the ID in the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/7d7131bf-62e6-4f3e-88ec-c41e1bf81ac0)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/71b06c12-799c-429b-88c7-9d32c262af0f)
+
 
 
 EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/d722ccac-7e96-446f-9a83-c6736acce894)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/47bb12b6-349f-4747-89f3-3da74a768ef4)
+
 
 On successful creation of the name, it should return status code 201.
 If there is no such name, it should return "NO SUCH NAME"
