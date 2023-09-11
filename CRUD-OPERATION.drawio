@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2023-09-11T09:32:04.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Avast/116.0.0.0" etag="KC9N_jY_CF-uZULcrHnd" version="21.7.4" type="device">
+  <diagram name="Page-1" id="sri_0BVGyc-ax-ygBiV-">
+    <mxGraphModel dx="880" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CMJ3nZWzqytPwgrpa9AN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-1" value="NODE CRUDE API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CMJ3nZWzqytPwgrpa9AN-2" target="CMJ3nZWzqytPwgrpa9AN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-2" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CMJ3nZWzqytPwgrpa9AN-3" target="CMJ3nZWzqytPwgrpa9AN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-3" value="CRUD Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-4" value="CRUD Collectoion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="28" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-5" value="CRUD Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMJ3nZWzqytPwgrpa9AN-12" value="CRUD Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="220" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
