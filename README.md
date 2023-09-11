@@ -66,11 +66,13 @@ This API will collect new name and add it to the database.
 
 RESPONSE BODY
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/fdb8f2ec-93cc-4f41-a9af-b420a479ad39)
 
 
 EXPECTED OUTPUT
 
- 
+ ![image](https://github.com/DeBenign/HNG-Task/assets/95944367/fdb8f2ec-93cc-4f41-a9af-b420a479ad39)
+
 
 On successful creation of the name, it should return status code 201
 
