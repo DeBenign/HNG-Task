@@ -66,12 +66,13 @@ This API will collect new name and add it to the database.
 
 RESPONSE BODY
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/fdb8f2ec-93cc-4f41-a9af-b420a479ad39)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/eae117e6-f122-40f4-bf91-5e7200ae7184)
+
 
 
 EXPECTED OUTPUT
 
- ![image](https://github.com/DeBenign/HNG-Task/assets/95944367/fdb8f2ec-93cc-4f41-a9af-b420a479ad39)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/5e27a449-8bf4-47b1-b8d5-217cea97a816)
 
 
 On successful creation of the name, it should return status code 201
@@ -83,7 +84,12 @@ This API will return all the names present in the database.
 
 RESPONSE BODY
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/0fb0204c-35b9-4d24-a080-3260c9a794d6)
+
+
 EXPECTED OUTPUT
+
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/c20a27b6-ec1a-431b-97d5-92f58250c9b6)
 
 On successful creation of the name, it should return status code 201.
 If there are no names, it should return [].
@@ -96,7 +102,11 @@ This API will return the name specify by the ID in the database.
 
 RESPONSE BODY
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/91466d8f-5265-4c7d-a4d1-2fec7ede05b7)
+
 EXPECTED OUTPUT
+
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/9140cb3e-5421-4d54-8367-aca3c734121a)
 
 On successful creation of the name, it should return status code 201.
 If there is no such name, it should return "NO SUCH NAME"
@@ -112,7 +122,12 @@ This API will update the name specify by the ID in the database.
 
 RESPONSE BODY
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1081d2b0-84a0-4634-830a-3b0f2a1bfcb1)
+
 EXPECTED OUTPUT
+
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/2ce20d0a-4899-449f-b9b7-ca8647d405a2)
+
 
 On successful creation of the name, it should return status code 201.
 If there is no such name, it should return "NO SUCH NAME"
@@ -128,8 +143,12 @@ This API will delete the name specify by the ID in the database.
 
 RESPONSE BODY
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/7d7131bf-62e6-4f3e-88ec-c41e1bf81ac0)
+
+
 EXPECTED OUTPUT
 
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/d722ccac-7e96-446f-9a83-c6736acce894)
 
 On successful creation of the name, it should return status code 201.
 If there is no such name, it should return "NO SUCH NAME"
