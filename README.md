@@ -1,4 +1,4 @@
-GETTING STARTED
+GETTING STARTED:  
 This repository contains a basic implementation of CRUD operations for managing a resource with a "name" attribute. The primary identifier for each resource is the "id" field.
 To use this CRUD application, follow the instructions below:
 
