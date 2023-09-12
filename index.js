@@ -21,11 +21,11 @@ app.get("/", (req, res) => {
 })
 
 //URL ENDPOINTS
-app.post("/api/addName", addName.addName);
-app.get("/api/fetchAllNames", fetchAllNames.fetchAllNames);
-app.get("/api/fetchName/:id", fetchName.fetchName);
-app.put("/api/updateName/:id", updateName.updateName);
-app.delete("/api/deleteName/:id", deleteName.deleteName);
+app.post("/api", addName.addName);
+app.get("/api", fetchAllNames.fetchAllNames);
+app.get("/api/:id", fetchName.fetchName);
+app.put("/api/:id", updateName.updateName);
+app.delete("/api/:id", deleteName.deleteName);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));

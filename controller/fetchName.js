@@ -5,7 +5,13 @@ exports.fetchName = async (req, res) => {
    //FIND A NAME USING AN ID
     try {
         const {id} = req.params;
-    const name = await database.findById(id);
+        const name = await database.findById(id);
+
+//IF ID NOT CORRESPONDS, FLAG ERROR
+    if (!id) {
+    console.log("No such user");
+    res.status(401).send({message: "No such user"});
+    }
 
     //IF ID CORRESPOND, NAME FOUND, RETURN SUCCESS MESSAGE
     res.status(201).send({
@@ -13,12 +19,7 @@ exports.fetchName = async (req, res) => {
         message: `${name.name} fetched from the database successfully`
     });
 
-    //IF ID NOT CORRESPONDS, FLAG ERROR
-    if (!id) {
-        console.log("No such user");
-        res.status(401).send("No such user")
-        }
-
+    
     } 
     
     //BAD REQUEST
