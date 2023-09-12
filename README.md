@@ -9,17 +9,17 @@ Node.js and npm installed on your machine.
 
 INSTALLATION   
 •	Clone this repository to your local machine.
-Git clone <repository-url>
+Git clone repository-url
 
 •	Navigate to the project directory.  
-cd <project-directory>
+   cd project-directory
 
 •	Install the dependencies.    
-npm init -y    
-npm install
+  npm init -y    
+  npm install
 
 •	Start the application.    
-npm start
+  npm start
 
 
 
@@ -61,19 +61,13 @@ HTTP Status OK: 201: This will be used if the request made by the user results i
 HTTP Status 500: BAD REQUEST: Thsi will be used if the server does not understand the request due to invalid syntax or an internal error
 
 RESTAPI ENDPOINTS = ADD
-POST /api/addName
+POST /api
 This API will collect new name and add it to the database.
 
-RESPONSE BODY
+RESPONSE BODY AND EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/b2792b04-54a9-4f1d-b5a7-47bfd0be159f)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/efe6b6cf-e57f-4800-8c70-78a0ba258423)
 
-
-
-
-EXPECTED OUTPUT
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/29d4055b-cc5c-40e5-8a45-115b21facde0)
 
 
 
@@ -81,18 +75,13 @@ On successful creation of the name, it should return status code 201
 
 
 RESTAPI ENDPOINTS = GET NAMES
-GET /api/fetchAllNames
+GET /api
 This API will return all the names present in the database.
 
-RESPONSE BODY
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1928fa7f-4953-41c0-9668-74da00c27054)
-
+RESPONSE BODY AND EXPECTED OUTPUT
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/07ebc98f-06e8-4986-9933-32eb12d67d44)
 
 
-EXPECTED OUTPUT
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/8b8de58c-11fd-40eb-87aa-9a46b7eb4bed)
 
 
 On successful creation of the name, it should return status code 201.
@@ -101,17 +90,13 @@ If there are no names, it should return [].
 
 
 RESTAPI ENDPOINTS = GET NAME
-GET /api/fetchName/:id
+GET /api/:id
 This API will return the name specify by the ID in the database.
 
-RESPONSE BODY
+RESPONSE BODY AND EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/1aff5351-bd29-4f5e-b0cc-c4bb789e492b)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/af16b21c-e5ba-4e75-83f7-83332f096d27)
 
-
-EXPECTED OUTPUT
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/da912ede-3ec9-4ca9-86d1-f666ef5bb43e)
 
 
 On successful creation of the name, it should return status code 201.
@@ -123,18 +108,12 @@ If there is no such name, it should return "NO SUCH NAME"
 
 
 RESTAPI ENDPOINTS = UPDATE NAME
-PUT /api/updateName/:id
+PUT /api/:id
 This API will update the name specify by the ID in the database.
 
-RESPONSE BODY
+RESPONSE BODY AND EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/350d3ec4-4b06-46ff-a345-ce1d42d58814)
-
-
-EXPECTED OUTPUT
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/ca281d8c-996b-4496-a18e-6e3fda32c476)
-
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/ebedba48-ed73-428d-b581-8517154cefa1)
 
 
 On successful creation of the name, it should return status code 201.
@@ -146,18 +125,12 @@ If there is no such name, it should return "NO SUCH NAME"
 
 
 RESTAPI ENDPOINTS = DELETE NAME
-DELETE /api/deleteName/:id
+DELETE /api/:id
 This API will delete the name specify by the ID in the database.
 
-RESPONSE BODY
+RESPONSE BODY AND EXPECTED OUTPUT
 
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/71b06c12-799c-429b-88c7-9d32c262af0f)
-
-
-
-EXPECTED OUTPUT
-
-![image](https://github.com/DeBenign/HNG-Task/assets/95944367/47bb12b6-349f-4747-89f3-3da74a768ef4)
+![image](https://github.com/DeBenign/HNG-Task/assets/95944367/c525fabf-6150-4381-8a82-dbef5ba52632)
 
 
 On successful creation of the name, it should return status code 201.
